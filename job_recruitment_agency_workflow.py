@@ -12,7 +12,7 @@ Original file is located at
 import streamlit as st
 import os
 
-os.environ['OPENAI_API_KEY'] = st.secrets["openAI_API"]
+os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
 
 from langchain_openai.chat_models import ChatOpenAI
