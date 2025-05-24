@@ -15,7 +15,7 @@ import os
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
 
-from langchain_openai.chat_models import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 
 llm = ChatOpenAI()
 
