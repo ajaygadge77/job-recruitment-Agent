@@ -9,9 +9,11 @@ Original file is located at
 
 #!pip install langchain langchain_core langchain_community langgraph langchain_openai
 
-from google.colab import userdata
+import streamlit as st
 import os
-os.environ['OPENAI_API_KEY'] = userdata.get('openAI_API')
+
+os.environ['OPENAI_API_KEY'] = st.secrets["openAI_API"]
+
 
 from langchain_openai.chat_models import ChatOpenAI
 
