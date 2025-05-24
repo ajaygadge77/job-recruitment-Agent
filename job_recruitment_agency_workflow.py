@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Yo_ARfHNb7wsCkUp9YrqH0uJyj1TtSUp
 """
 
-!pip install langchain langchain_core langchain_community langgraph langchain_openai
+#!pip install langchain langchain_core langchain_community langgraph langchain_openai
 
 from google.colab import userdata
 import os
